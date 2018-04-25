@@ -1,4 +1,4 @@
-package main.top.vitoliu.singleton;
+package top.vitoliu.singleon;
 
 /**
  * 单例模式之双重锁检查方式

@@ -1,4 +1,4 @@
-package main.top.vitoliu.singleton;
+package top.vitoliu.singleon;
 
 /**
  * 采用静态内部类的方式（《Effective Java》推荐的方式）
