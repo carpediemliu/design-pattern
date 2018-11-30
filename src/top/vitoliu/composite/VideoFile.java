@@ -7,7 +7,7 @@ package top.vitoliu.composite;
  */
 public class VideoFile extends BaseFile {
 
-	public VideoFile(String name) {
+	VideoFile(String name) {
 		super(name);
 	}
 

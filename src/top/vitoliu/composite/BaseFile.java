@@ -6,18 +6,19 @@ package top.vitoliu.composite;
  * @since 29 十一月 2018
  */
 public abstract class BaseFile {
-	String name;
 
-	public BaseFile(String name) {
+	private String name;
+
+	BaseFile(String name) {
 		this.name=name;
 	}
 
-	public String getName() {
+	String getName() {
 		return name;
 	}
 
-	public void setName(String name) {
-		this.name = name;
-	}
+	/**
+	 * list page
+	 */
 	public abstract void display();
 }

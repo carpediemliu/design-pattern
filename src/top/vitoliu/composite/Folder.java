@@ -2,8 +2,6 @@ package top.vitoliu.composite;
 
 import java.util.ArrayList;
 
-import com.sun.tools.javac.util.List;
-
 /**
  *
  * @author yukun.liu
@@ -13,7 +11,7 @@ public class Folder extends BaseFile {
 
 	private ArrayList<BaseFile> files;
 
-	public Folder(String pathname) {
+	Folder(String pathname) {
 		super(pathname);
 		 files = new ArrayList<>();
 	}
@@ -21,6 +19,7 @@ public class Folder extends BaseFile {
 	/**
 	 * 浏览文件
 	 */
+	@Override
 	public void display(){
 		for (BaseFile file : files){
 			file.display();
@@ -29,9 +28,9 @@ public class Folder extends BaseFile {
 
 	/**
 	 * 添加文件
-	 * @param file
+	 * @param  file
 	 */
-	public void add(BaseFile file){
+	void add(BaseFile file){
 		files.add(file);
 	}
 
@@ -39,7 +38,7 @@ public class Folder extends BaseFile {
 	 * 删除文件
 	 * @param file
 	 */
-	public void remove(BaseFile file){
+	void remove(BaseFile file){
 		files.remove(file);
 	}
 }

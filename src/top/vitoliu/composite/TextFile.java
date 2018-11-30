@@ -7,7 +7,7 @@ package top.vitoliu.composite;
  */
 public class TextFile extends BaseFile {
 
-	public TextFile(String name) {
+	TextFile(String name) {
 		super(name);
 	}
 

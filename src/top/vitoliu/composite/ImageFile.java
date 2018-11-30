@@ -6,7 +6,7 @@ package top.vitoliu.composite;
  * @since 29 十一月 2018
  */
 public class ImageFile extends BaseFile{
-	public ImageFile(String name) {
+	ImageFile(String name) {
 		super(name);
 	}
 
